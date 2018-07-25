@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "app_function": "run.app",
+    "aws_region": "us-east-1",
+    "profile_name": "default",
+    "project_name": "projects",
+    "runtime": "python3.6",
+    "s3_bucket": "zappacompilebucket",
+    "role_name": "ZappaDeployRole",
+    "aws_environment_variables": {
+      "DBUSERNAME": "vfquiz",
+      "DBPASSWORD": "vfquiz",
+      "DBHOSTNAME": "dchaos.cfpz9wwo4rqd.us-east-1.rds.amazonaws.com",
+      "DBPORT": "5432",
+      "DBNAME": "dchaos",
+      "DBPOOL_SIZE": "10",
+      "DBPOOL_TIMEOUT": "2",
+      "URL_OAUTH_SECURITY_SERVICE": "https://x2w4g7te2i.execute-api.us-east-1.amazonaws.com/dev/oauth_security/login"
+    }
+  }
+}
